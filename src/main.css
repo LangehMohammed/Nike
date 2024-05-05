@@ -1,16 +1,6 @@
 @font-face {
-    font-family: "Helvetica";
-    src: url(./Fonts/HelveticaNeueLTCom-Roman.ttf);
-}
-
-@font-face {
-    font-family: "NeueHaasGroteskTXW02-75Bd";
-    src: url(./Fonts/Neue\ Haas\ Grotesk\ Display\ Pro\ 75\ Bold.ttf);
-}
-
-@font-face {
-    font-family: "Helvetica L";
-    src: url(./Fonts/HelveticaLTStd-Cond.otf);
+    font-family: "Helvetica Neue";
+    src: url(./Fonts/HelveticaNeueLTW1GMd.otf);
 }
 
 * {
@@ -22,8 +12,7 @@
 }
 
 body {
-    font-family: "Helvetica";
-    font-weight: bold;
+    font-family: "Helvetica Neue";
     margin: 0;
     color: #111111;
 }
@@ -44,6 +33,7 @@ body button {
     background-color: transparent;
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 body input {
