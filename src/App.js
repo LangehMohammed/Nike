@@ -1,25 +1,11 @@
 import './main.css'
-import Lenis from 'lenis'
-import { useRef, useEffect} from 'react'
-import Nav from "./Componets/Navigation/Nav";
+import Main from './Componets/Main/Main';
 
 
 function App() {
-
-  useEffect(() => {
-    const lenis = new Lenis()
-
-    function raf(time) {
-    lenis.raf(time)
-    requestAnimationFrame(raf)
-    }
-
-    requestAnimationFrame(raf)
-  }, [])
-
   return (
     <>
-      <Nav/>
+      <Main/>
     </>
   );
 }

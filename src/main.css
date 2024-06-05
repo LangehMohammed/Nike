@@ -3,6 +3,11 @@
     src: url(./Fonts/HelveticaNeueLTW1GMd.otf);
 }
 
+@font-face {
+    font-family: "Nike Futura ND";
+    src: url(./Fonts/Nike\ Futura\ ND.ttf)
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -17,18 +22,18 @@ body {
     color: #111111;
 }
 
-body a {
+a {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
     box-sizing: border-box;
 }
 
-body ul {
+ul {
     list-style-type: none;
 }
 
-body button {
+button {
     border: none;
     background-color: transparent;
     margin: 0;
@@ -36,7 +41,25 @@ body button {
     cursor: pointer;
 }
 
-body input {
+input {
     border: none;
     outline: none;
-}  
+}
+
+.btn{
+    display: inline-flex;
+    z-index: 1;
+    margin-left: 0;
+    margin-right: 6px;
+    margin-top: 6px;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 6px 16px;
+    background-color: #fff;
+    color: #111111;
+    border-radius: 30px;
+    &:hover{
+        background-color: #CACACB;
+    }
+}

@@ -1,0 +1,68 @@
+.container-2 {
+  position: relative;
+  overflow: hidden;
+}
+.container-2 .wrapper {
+  margin-left: -6px;
+  margin-right: -6px;
+}
+.container-2 .wrapper .image_card {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  min-height: 1px;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.container-2 .wrapper .image_card .image_wrapper {
+  height: 100%;
+  width: 100%;
+}
+.container-2 .wrapper .image_card .image_wrapper .image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+}
+.container-2 .wrapper .image_card .image_caption {
+  box-sizing: border-box;
+  margin-top: 36px;
+  padding: 0;
+  position: relative;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  width: 75%;
+  left: 12.5%;
+  top: 0;
+  right: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+.container-2 .wrapper .image_card .image_caption p:first-child {
+  margin-bottom: 8px;
+}
+.container-2 .wrapper .image_card .image_caption .cap_text {
+  margin-top: 12px;
+}
+.container-2 .wrapper .image_card .image_caption .cap_heading {
+  text-transform: uppercase;
+  font-size: 76px;
+  line-height: 68px;
+  font-family: "Nike Futura ND";
+}
+.container-2 .wrapper .image_card .image_caption .cap_btn_holder {
+  margin-top: 18px;
+}
+.container-2 .wrapper .image_card .image_caption .cap_btn_holder .cap_btn {
+  background-color: #111111;
+  color: #ffffff;
+}/*# sourceMappingURL=Main.css.map */
